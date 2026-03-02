@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: live-stats-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npx playwright install --with-deps && node server.js
