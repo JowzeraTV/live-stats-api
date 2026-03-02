@@ -1,0 +1,14 @@
+{
+  "name": "live-stats-api",
+  "version": "1.0.0",
+  "description": "Multi platform live stats",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.41.2"
+  }
+}
